@@ -1,0 +1,61 @@
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 30px;
+    box-sizing: border-box;
+    height: 60px;
+    border-bottom: 1px solid #fff;
+    background: #000;
+}
+
+.navbar .crystal-logo {
+    display: flex;
+    height: 50px;
+    width: auto;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.navbar .crystal-logo span {
+    display: flex;
+    font-size: 26px;
+    font-weight: 900;
+    color: #fff;
+}
+
+.navbar .navbar-links {
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    list-style-type: none;
+    gap: 10px;
+    box-sizing: border-box;
+}
+
+.navbar .navbar-links li {
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    list-style-type: none;
+    position: relative;
+}
+
+.navbar .navbar-links li a {
+    display: flex;
+    padding: 10px;
+    box-sizing: border-box;
+    color: #fff;
+    font-size: 16px;
+    text-decoration: unset;
+    font-weight: 600;
+}
+
+.navbar .navbar-links li a:hover {
+    position: relative;
+    background-color: #1D1616;
+    font-weight: 900;
+    padding: 10px;
+}
